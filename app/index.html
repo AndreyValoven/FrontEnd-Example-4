@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fooseshoes</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="logo--box">
         <div class="conteiner">
             <div class="logo">fooseshoes</div>
-            <div class="search"></div>
+            <div class="search">
+                <p><i class="fa fa-search"></i> LOGIN or REGISTER</p>
+            </div>
         </div>
     </div>
     <div class="menu--box">
@@ -24,27 +27,27 @@
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <div class="store-box">
-                    <div class="saves">30</div>
-                    <div class="store">0</div>
-                </div>
+                <ul class="store-box">
+                    <li><i class="fa fa-star-o"></i>30</li>
+                    <li><i class="fa fa-shopping-cart"></i>0</li>
+                </ul>
             </div>
         </div>
     </div>
     <div class="slieder--box">
         <div class="conteiner">
             <div class="slieder--content">
-                <div class="slieder--prise">
+                <div class="slieder--price">
                     <p>$145.99</p>
                 </div>
                 <h3>Pink Shoes</h3>
                 <h3>2013 Collection</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos modi molestiae nostrum omnis quia quod sapiente tempore ullam voluptatum?</p>
                 <ul class="icons">
-                    <li><i class="fa"></i></li>
-                    <li><i class="fa"></i></li>
-                    <li><i class="fa"></i></li>
-                    <li><i class="fa"></i></li>
+                    <li><i class="fa fa-eye"></i></li>
+                    <li><i class="fa fa-star-o"></i></li>
+                    <li><i class="fa fa-share-square-o"></i></li>
+                    <li><i class="fa fa-cart-arrow-down icon--active"></i></li>
                 </ul>
             </div>
         </div>
@@ -52,11 +55,11 @@
     <div class="controls">
         <div class="conteiner">
             <ul class="carusel">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><div class="slider--active"></div></li>
+                <li><div></div></li>
+                <li><div></div></li>
+                <li><div></div></li>
+                <li><div></div></li>
             </ul>
             <div class="carusel--name">
                 <div>
@@ -83,14 +86,16 @@
         </div>
     </div>
     <div class="specials">
-        <div class="specials--item onSale">
-            <h5>On Sale</h5>
-        </div>
-        <div class="specials--item speciall--offers">
-            <h5>Special Offers</h5>
-        </div>
-        <div class="specials--item must--have">
-            <h5>Must Have</h5>
+        <div class="conteiner">
+            <div class="specials--item on--sale">
+                <h5>On Sale</h5>
+            </div>
+            <div class="specials--item speciall--offers">
+                <h5>Special Offers</h5>
+            </div>
+            <div class="specials--item must--have">
+                <h5>Must Have</h5>
+            </div>
         </div>
     </div>
     <div class="goods--box">
@@ -103,35 +108,38 @@
                 <div class="new--arrivals--itmes">
                     <div class="goods--item">
                         <div class="goods--img">
-                            <img src="" alt="goods">
+                            <img src="img/goods--img.png" alt="goods">
                             <div class="no--sale">
                                 <p>on sale</p>
                             </div>
                         </div>
                         <div class="goods--info">
-                            <div class="goods--price"></div>
+                            <div class="goods--price">$145.99</div>
+                            <h5>Even&Odd</h5>
                         </div>
                     </div>
                     <div class="goods--item">
                         <div class="goods--img">
-                            <img src="" alt="goods">
+                            <img src="img/goods--img.png" alt="goods">
                             <div class="no--sale">
                                 <p>on sale</p>
                             </div>
                         </div>
                         <div class="goods--info">
-                            <div class="goods--price"></div>
+                            <div class="goods--price">$145.99</div>
+                            <h5>Even&Odd</h5>
                         </div>
                     </div>
                     <div class="goods--item">
                         <div class="goods--img">
-                            <img src="" alt="goods">
+                            <img src="img/goods--img.png" alt="goods">
                             <div class="no--sale">
                                 <p>on sale</p>
                             </div>
                         </div>
                         <div class="goods--info">
-                            <div class="goods--price"></div>
+                            <div class="goods--price">$145.99</div>
+                            <h5>Even&Odd</h5>
                         </div>
                     </div>
                 </div>
@@ -144,30 +152,39 @@
                 </div>
                 <div class="best--seller--items">
                     <div class="goods--item">
-                        <div class="goods--img"><img src="" alt="goods">
-                            <div class="no--sale"></div>
+                        <div class="goods--img">
+                            <img src="img/goods--img.png" alt="goods">
+                            <div class="no--sale">
+                                <p>on sale</p>
+                            </div>
                         </div>
                         <div class="goods--info">
-                            <h5></h5>
-                            <div class="goods--price"></div>
+                            <div class="goods--price">$145.99</div>
+                            <h5>Even&Odd</h5>
                         </div>
                     </div>
                     <div class="goods--item">
-                        <div class="goods--img"><img src="" alt="goods">
-                            <div class="no--sale"></div>
+                        <div class="goods--img">
+                            <img src="img/goods--img.png" alt="goods">
+                            <div class="no--sale">
+                                <p>on sale</p>
+                            </div>
                         </div>
                         <div class="goods--info">
-                            <h5></h5>
-                            <div class="goods--price"></div>
+                            <div class="goods--price">$145.99</div>
+                            <h5>Even&Odd</h5>
                         </div>
                     </div>
                     <div class="goods--item">
-                        <div class="goods--img"><img src="" alt="goods">
-                            <div class="no--sale"></div>
+                        <div class="goods--img">
+                            <img src="img/goods--img.png" alt="goods">
+                            <div class="no--sale">
+                                <p>on sale</p>
+                            </div>
                         </div>
                         <div class="goods--info">
-                            <h5></h5>
-                            <div class="goods--price"></div>
+                            <div class="goods--price">$145.99</div>
+                            <h5>Even&Odd</h5>
                         </div>
                     </div>
                 </div>
@@ -175,11 +192,11 @@
             <div class="addon">
                 <div class="free--shipping">
                     <h6>Free Shipping</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda dicta libero provident suscipit. Assumenda aut consequatur ea eius error et, harum ipsum neque odio officia officiis quam quia quisquam similique soluta temporibus ullam voluptate! Accusamus ad doloribus inventore mollitia?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda dicta libero provident suscipit. Assumenda aut consequatur ea eius error et, harum ipsum neque odio officia </p>
                 </div>
                 <div class="testimonials">
                     <h6>Testimonials</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur at autem blanditiis consectetur dicta doloribus earum esse excepturi fuga illo modi molestias nam nesciunt non nostrum officia pariatur perferendis placeat quae quod rerum tempora tenetur ut, voluptas voluptates voluptatibus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur at autem blanditiis consectetur dicta doloribus earum esse excepturi fuga illo modi molestias nam nesciunt non  </p>
                     <p class="name">-John Doe-</p>
                 </div>
                 <div class="blog--news">
@@ -206,33 +223,46 @@
     </div>
     <div class="pre--footer">
         <div class="conteiner">
-            <div class="text--widget">
-                <h6>Text Widget</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aliquid amet animi cum distinctio dolor dolorem, ducimus expedita harum incidunt ipsam iusto labore laboriosam laborum laudantium magni necessitatibus nobis nostrum numquam, obcaecati optio pariatur provident quo rem, sed veritatis voluptas? Dignissimos fugiat harum quod quos, similique voluptates. Animi deleniti, eaque impedit minus natus nisi numquam perferendis quaerat sed tempora? Ad amet architecto aspernatur at atque harum hic, ipsa magnam maxime natus numquam quidem quo recusandae repellendus similique soluta sunt.</p>
-            </div>
-            <div class="twitter--widget">
-                <h6>Twitter Widget</h6>
-                <p>
-                    <spam></spam>
-                </p>
-                <p>
-                    <spam></spam>
-                </p>
-            </div>
-            <div class="flickr--widget">
-                <h6>Flickr Widget</h6>
-                <div class="flickr--widget--box"><img src="" alt=""></div>
-                <div class="flickr--widget--box"><img src="" alt=""></div>
-                <div class="flickr--widget--box"><img src="" alt=""></div>
-                <div class="flickr--widget--box"><img src="" alt=""></div>
-                <div class="flickr--widget--box"><img src="" alt=""></div>
-                <div class="flickr--widget--box"><img src="" alt=""></div>
-            </div>
-            <div class="newsletter--signup">
-                <form action="">
-                    <input type="text" name="email" placeholder="Enter email for newsletter">
-                    <button><i class="fa"></i></button>
-                </form>
+            <div class="pre--footer--box">
+                <div class="text--widget">
+                    <h6>Text Widget</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aliquid amet animi cum distinctio dolor dolorem, ducimus expedita harum incidunt ipsam iusto labore laboriosam laborum laudantium magni necessitatibus nobis nostrum numquam, obcaecati optio pariatur provident quo rem, sed veritatis voluptas? Dignissimos fugiat harum quod quos, similique voluptates. Animi deleniti, eaque impedit minus natus nisi numquam perferendis quaerat sed tempora? Ad amet architecto aspernatur at atque harum hic, ipsa magnam maxime natus numquam quidem quo recusandae repellendus similique soluta sunt.</p>
+                </div>
+                <div class="twitter--widget">
+                    <h6>Twitter Widget</h6>
+                    <p>
+                        <spam>@lorem</spam> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <p class="time"> 20 days ago</p>
+                    <p>
+                        <spam>@lorem</spam> Lorem ipsum dolor sit amet.
+                    </p>
+                    <p class="time"> 20 days ago</p>
+                </div>
+                <div class="flickr--widget">
+                    <h6>Flickr Widget</h6>
+                    <div class="flickr--widget--box icon--1"></div>
+                    <div class="flickr--widget--box icon--2"></div>
+                    <div class="flickr--widget--box icon--3"></div>
+                    <div class="flickr--widget--box icon--4"></div>
+                    <div class="flickr--widget--box icon--5"></div>
+                    <div class="flickr--widget--box icon--6"></div>
+                </div>
+                <div class="newsletter--signup">
+                    <form action="">
+                        <input type="text" name="email" placeholder="Enter email for newsletter">
+                        <button><i class="fa fa-angle-right"></i></button>
+                    </form>
+                </div>
+                <div class="social--media" style="color: #fff">
+                    <ul>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-google-plus"></i></li>
+                        <li><i class="fa fa-linkedin"></i></li>
+                        <li><i class="fa fa-chevron-right"></i></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
